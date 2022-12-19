@@ -1,0 +1,88 @@
+.luar {
+    /* background-color: rgba(0, 89, 255, 0.542); */
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    /* justify-content: center; */
+    /* justify-self: center; */
+    align-items: center;
+    margin-inline: auto;
+}
+
+.dalam {
+    /* background-color: whitesmoke; */
+    width: 360px;
+    height: 500px;
+    margin: 70px;
+}
+
+.judull {
+    font-size: 22px;
+    font-weight: 500;
+    color: #7E98DF
+}
+
+.judulll {
+    font-size: 14px;
+    color:rgba(35, 35, 35, 1);
+    display: flex;
+}
+
+.abu{
+    display: flex;
+    color: #848484;
+    opacity: 0.75;
+    font-size: 14px;
+}
+.pencet {
+    margin-top: 20px;
+    border: 0;
+    height: 40px;
+    background: #7E98DF;
+    border-radius: 70px;
+    color: #FFFFFF;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pencet:hover {
+    opacity: 0.5;
+}
+
+.pencett {
+    margin-top: 20px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 70px;
+    border-color: #7E98DF;
+    color: #7E98DF;
+    
+}
+
+.isian{
+    display: flex;
+    margin-top: 0px;
+    border: 0px;
+    opacity: 1;
+    background-color: white;
+    width: 90%;
+}
+
+.forgot {
+    text-decoration: none;
+    margin-left: 230px;
+    color: #7E98DF;
+    margin-top: 0px;
+}
+
+.up {
+    /* display: flex; */
+    /* flex-direction: row; */
+}

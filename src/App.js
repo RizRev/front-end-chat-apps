@@ -1,42 +1,34 @@
 import { useEffect, useState } from 'react';
 import './App.css'; 
 import { io } from 'socket.io-client';
+import Login from './pages/login/Login';
+import Register from './pages/register/Register';
+import Forgot from './pages/forgot password/Forgot';
+import Home from './pages/home/Home.js';
+import {BrowserRouter,Route,Link,Routes,Navigate} from 'react-router-dom'
+import Dropdown from 'react-bootstrap/Dropdown'
 // import { useState } from 'react';
 
 function App() {
-  const [message,setMessage] = useState("")
-  const [socket,setSocket] = useState(null)
-  const [messages,setMessages] = useState([])
-  
-  const handleMessage = () => {
-    socket.emit('message',message)
-    setMessage("")
-  }
 
-  useEffect(()=>{
-    const resultSocket = io("http://localhost:4000")
-    setSocket(resultSocket)
-  },[])
-
-  useEffect(()=>{
-    if(socket){
-      socket.on("messageBe",(data)=>{
-        setMessages((current)=>[...current,data])
-      })
-    }
-  },[socket])
 
   return (
     <div className="App">
-      <ul>
-        {messages.map((item,index)=>(
-        <li key={index+1}>{item.message}  - {item.date}</li>
-        ))}
-      </ul>
-      <input type="text" value={message} name="message"
-      onChange={(e)=>setMessage(e.target.value)} />
-      <br/>
-      <button onClick={handleMessage}>tes</button>
+
+      <BrowserRouter>
+        <nav>
+          <Link to="/login">login</Link>
+          <Link to="/register">register</Link>
+          <Link to="/Forgot">forgot</Link>
+          <Link to="/home">home</Link>
+        </nav>
+        <Routes>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route path='/forgot' element={<Forgot/>}/>
+          <Route path='/home' element={<Home/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
