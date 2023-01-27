@@ -2,6 +2,7 @@
     background-color: whitesmoke;
     width: 350px;
     height: 1024px;
+
 }
 
 .judul {
@@ -16,6 +17,12 @@ padding-top: 17px;
 .gambar {
     border-radius: 30px;
     width: 82px;
+}
+
+.gambarr {
+    border-radius: 15px;
+    width: 60px;
+    margin: 10px;
 }
 
 .nama {
@@ -56,7 +63,7 @@ font-size: 16px;
 }
 
 .footer {
-    background-color: whitesmoke;
+    background-color: #7e98df80;
     width: 100%;
     bottom: 0;
     position: fixed;
@@ -87,5 +94,134 @@ font-size: 16px;
 .tombol:hover {
     background-color: #7E98DF;
     color: white;
+    border-radius: 5px;
+}
+
+.card {
+    /* background-color: aqua; */
+}
+
+.isi{
+    display: flex;
+    align-items: center;
+}
+
+.namegrup {
+    text-decoration: none;
+    color: #848484;
+}
+
+.header {
+    background-color: #7e98df80;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 50px;
+}
+
+.isiheader {
+    display: flex;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.tandaplus{
+    /* Rectangle 12 */
+
+position: absolute;
+width: 3px;
+height: 23px;
+left: 310px;
+top: 345px;
+
+background: #7E98DF;
+border-radius: 10px;
+
+
+/* Rectangle 13 */
+
+
+}
+
+.tandaplus2{
+    position: absolute;
+width: 3px;
+height: 23px;
+left: 323px;
+top: 355px;
+
+background: #7E98DF;
+border-radius: 10px;
+transform: rotate(90deg);
+}
+
+.daftar{
+    cursor: pointer;
+    display: flex;
+    font-weight:700;
+    font-size: larger;
+    border-radius: 15px;
+    margin-left: 15px;
+    /* justify-content: center; */
+    align-items: center;
+    width: 90%;
+    background-color:#7E98DF;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.sendiri{
+    /* display: flex;
+    justify-content: flex-end; */
+    background-color:#7E98DF;
+    margin: 5px;
+    text-align: right;
+    /* width: fit-content; */
+    padding: 2px;
+    padding-inline: 8px;
+    border-radius: 15px;
+}
+
+.dalam{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    text-align: right;
+    /* background-color:#7E98DF; */
     border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.lebih{
+    margin-inline: auto;
+    /* background-color: #848484; */
+    display: flex;
+    row-gap: 100px;
+    /* height: fit-content; */
+    justify-content: end;
+    height: fit-content;
+    width: 80%;
+
+}
+
+.lebih2{
+    margin-inline: auto;
+    /* background-color: #848484; */
+    display: flex;
+    /* height: fit-content; */
+    justify-content: start;
+    width: 80%;
+
+}
+
+
+.teman{
+    /* background-color: yellow; */
+    text-align: left;
+}
+
+.lembar{
+    width: 1000px;
+    /* background-color: orange; */
 }

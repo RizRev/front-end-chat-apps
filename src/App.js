@@ -10,18 +10,18 @@ import Dropdown from 'react-bootstrap/Dropdown'
 // import { useState } from 'react';
 
 function App() {
-
+  const socket = io.connect()
 
   return (
     <div className="App">
 
       <BrowserRouter>
-        <nav>
+        {/* <nav>
           <Link to="/login">login</Link>
           <Link to="/register">register</Link>
           <Link to="/Forgot">forgot</Link>
           <Link to="/home">home</Link>
-        </nav>
+        </nav> */}
         <Routes>
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
