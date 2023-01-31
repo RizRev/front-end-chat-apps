@@ -82,9 +82,9 @@ npm install
 | --------------------------------------------------------------------------------------------------------------- |
 | ![Register](https://github.com/RizRev/front-end-chat-apps/blob/master/screeenshot/register.png "Register Page") |
 
-| Login                                                                                             | Chat                                                                                            |
-| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| ![Login](https://github.com/RizRev/front-end-chat-apps/blob/master/screeenshot/login.jpg "Login") | ![Chat](https://github.com/RizRev/front-end-chat-apps/blob/master/screeenshot/chats.png "Chat") |
+| Login                                                                                             | Chat                                                                                             |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| ![Login](https://github.com/RizRev/front-end-chat-apps/blob/master/screeenshot/login.jpg "Login") | ![Chat](https://github.com/RizRev/front-end-chat-apps/blob/master/screeenshot/chats2.png "Chat") |
 
 ## Related Project
 
