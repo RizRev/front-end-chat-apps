@@ -1,6 +1,6 @@
 import React from 'react'
 import './/home.css'
-import gambar from '../../asset/muka1.jpg'
+import gambar from '../../asset/muka1.png'
 import gambarr from '../../asset/JavaScript-logo.png'
 import gmbrnext from '../../asset/nextjs.png'
 import gmbrreact from '../../asset/react.png'
